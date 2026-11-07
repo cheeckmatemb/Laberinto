@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{24ECA1CF-BC3F-4685-86BE-0012546BB867}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaberintoInteligente.Core", "src\LaberintoInteligente.Core\LaberintoInteligente.Core.csproj", "{4C25F71E-6877-47E9-AF97-351B4C4A0F02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{17328524-E50D-44A6-A9D8-2BDC4D81AAD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaberintoInteligente.Tests", "tests\LaberintoInteligente.Tests\LaberintoInteligente.Tests.csproj", "{B70C8DC7-92F0-403B-83EF-D7A02D9711F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaberintoInteligente.Interfaz", "src\LaberintoInteligente.Interfaz\LaberintoInteligente.Interfaz.csproj", "{6C9EA02F-DD68-436F-A3F2-536D6200F49A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{782D3DB5-83FD-4FF0-848C-59B10727560A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaberintoInteligente.Capturas", "tools\LaberintoInteligente.Capturas\LaberintoInteligente.Capturas.csproj", "{F195A240-8D03-4BDF-917B-4B7A9FF06E45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C25F71E-6877-47E9-AF97-351B4C4A0F02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C25F71E-6877-47E9-AF97-351B4C4A0F02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C25F71E-6877-47E9-AF97-351B4C4A0F02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C25F71E-6877-47E9-AF97-351B4C4A0F02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B70C8DC7-92F0-403B-83EF-D7A02D9711F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B70C8DC7-92F0-403B-83EF-D7A02D9711F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B70C8DC7-92F0-403B-83EF-D7A02D9711F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B70C8DC7-92F0-403B-83EF-D7A02D9711F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C9EA02F-DD68-436F-A3F2-536D6200F49A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C9EA02F-DD68-436F-A3F2-536D6200F49A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C9EA02F-DD68-436F-A3F2-536D6200F49A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C9EA02F-DD68-436F-A3F2-536D6200F49A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F195A240-8D03-4BDF-917B-4B7A9FF06E45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F195A240-8D03-4BDF-917B-4B7A9FF06E45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F195A240-8D03-4BDF-917B-4B7A9FF06E45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F195A240-8D03-4BDF-917B-4B7A9FF06E45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4C25F71E-6877-47E9-AF97-351B4C4A0F02} = {24ECA1CF-BC3F-4685-86BE-0012546BB867}
+		{B70C8DC7-92F0-403B-83EF-D7A02D9711F7} = {17328524-E50D-44A6-A9D8-2BDC4D81AAD9}
+		{6C9EA02F-DD68-436F-A3F2-536D6200F49A} = {24ECA1CF-BC3F-4685-86BE-0012546BB867}
+		{F195A240-8D03-4BDF-917B-4B7A9FF06E45} = {782D3DB5-83FD-4FF0-848C-59B10727560A}
+	EndGlobalSection
+EndGlobal
